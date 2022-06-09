@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Template Bootstrap</title>
+    <link rel="icon" type="image/png"
+        href="https://res.cloudinary.com/dbb9coys1/image/upload/v1654572244/logonat_1_kltgfg.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- comienza navbar -->
+    <nav class="navbar navbar-expand-lg bg-success" id="navbar">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand text-white w-25" href="index.html"><img class="w-25"
+                        src="https://res.cloudinary.com/dbb9coys1/image/upload/v1654572244/logonat_1_kltgfg.png"
+                        alt=""></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#naturaleza">Nosotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#footer">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <!-- comienza carrousel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://wgsustentable.com/wp-content/uploads/2021/03/AdobeStock_309195144-post-dia-mundial-naturaleza.jpeg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wgsustentable.com/wp-content/uploads/2021/03/AdobeStock_309195144-post-dia-mundial-naturaleza.jpeg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wgsustentable.com/wp-content/uploads/2021/03/AdobeStock_309195144-post-dia-mundial-naturaleza.jpeg"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- comienza cards -->
+        <h2 class="text-center mt-3" id="naturaleza">Naturaleza</h2>
+        <div class="container mt-3">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <img src="https://pbs.twimg.com/profile_images/1396813137211543552/Y3aP8GCT_400x400.jpg "
+                            class="img-fluid rounded-start w-50" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <img src="https://pbs.twimg.com/profile_images/1396813137211543552/Y3aP8GCT_400x400.jpg"
+                            class="img-fluid rounded-start w-50" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <img src="https://pbs.twimg.com/profile_images/1396813137211543552/Y3aP8GCT_400x400.jpg"
+                            class="img-fluid rounded-start w-50 " alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- comienza footer -->
+        <footer class=" bg-success mt-5 pt-3" id="footer">
+            <div class="d-flex justify-content-around align-items-center me-5">
+                <div>
+                    <a href="#navbar"><img class="w-100"
+                        src="https://res.cloudinary.com/dbb9coys1/image/upload/v1654572244/logonat_1_kltgfg.png" alt=""></a>
+                </div>
+                <div>
+                    <h3 class="text-center">Redes Sociales</h3>
+                    <div class="d-flex w-100 justify-content-center w-25">
+                        <a href="https://www.facebook.com/" target="_blank" class="w-25"><img class="w-100"
+                                src="https://res.cloudinary.com/dbb9coys1/image/upload/v1654573445/logoface_hju0d9.png"
+                                alt=""></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="w-25"><img class="w-100"
+                                src="https://res.cloudinary.com/dbb9coys1/image/upload/v1654573450/instagram_ybmtoy.png"
+                                alt=""></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="w-25"><img class="w-100"
+                                src="https://res.cloudinary.com/dbb9coys1/image/upload/v1654649131/youtub3_1_fuj6fm.png"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="">
+                    <h3 class="text-center">Encuentranos</h3>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.124621523382!2d-65.209114885296!3d-26.835988296471413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0ef228d361%3A0x2c1ae0c8660d42d0!2sGral.%20Paz%20575%2C%20T4000BLK%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1654734715364!5m2!1ses-419!2sar"
+                            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="d-block bg-light py-3 text-center mt-3">
+                &copy; Comision 9i - RollingCode School
+            </div>
+        </footer>
+    </main>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
